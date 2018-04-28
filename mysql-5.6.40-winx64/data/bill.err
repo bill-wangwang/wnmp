@@ -1,0 +1,29 @@
+2018-04-28 15:17:23 16984 [Note] Plugin 'FEDERATED' is disabled.
+2018-04-28 15:17:23 16984 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2018-04-28 15:17:23 16984 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-04-28 15:17:23 16984 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-04-28 15:17:23 16984 [Note] InnoDB: Memory barrier is not used
+2018-04-28 15:17:23 16984 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-04-28 15:17:23 16984 [Note] InnoDB: Not using CPU crc32 instructions
+2018-04-28 15:17:23 16984 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-04-28 15:17:23 16984 [Note] InnoDB: Completed initialization of buffer pool
+2018-04-28 15:17:23 16984 [Note] InnoDB: The first specified data file .\ibdata1 did not exist: a new database to be created!
+2018-04-28 15:17:23 16984 [Note] InnoDB: Setting file .\ibdata1 size to 12 MB
+2018-04-28 15:17:23 16984 [Note] InnoDB: Database physically writes the file full: wait...
+2018-04-28 15:17:23 16984 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+2018-04-28 15:17:24 16984 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+2018-04-28 15:17:25 16984 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2018-04-28 15:17:25 16984 [Warning] InnoDB: New log files created, LSN=45781
+2018-04-28 15:17:25 16984 [Note] InnoDB: Doublewrite buffer not found: creating new
+2018-04-28 15:17:25 16984 [Note] InnoDB: Doublewrite buffer created
+2018-04-28 15:17:25 16984 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-04-28 15:17:25 16984 [Warning] InnoDB: Creating foreign key constraint system tables.
+2018-04-28 15:17:25 16984 [Note] InnoDB: Foreign key constraint system tables created
+2018-04-28 15:17:25 16984 [Note] InnoDB: Creating tablespace and datafile system tables.
+2018-04-28 15:17:25 16984 [Note] InnoDB: Tablespace and datafile system tables created.
+2018-04-28 15:17:25 16984 [Note] InnoDB: Waiting for purge to start
+2018-04-28 15:17:25 16984 [Note] InnoDB: 5.6.40 started; log sequence number 0
+2018-04-28 15:17:25 16984 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-04-28 15:17:25 16984 [Note] IPv6 is available.
+2018-04-28 15:17:25 16984 [Note]   - '::' resolves to '::';
+2018-04-28 15:17:25 16984 [Note] Server socket created on IP: '::'.

@@ -8,6 +8,10 @@
 
 ## 使用说明
 - 下载 wamp-v1.0.0.zip
+```
+	git clone git@github.com:bill-wangwang/wnmp.git 
+	#或者直接下载 https://codeload.github.com/bill-wangwang/wnmp/zip/master
+```
 - 解压 wamp-v1.0.0.zip 到任意目录（注意路径不能出现中文和空格，推荐路径为:  d:\wnmp ）
 - 双击 “启动全部.bat” 即可启动全部服务
 - 双击 “停止全部.bat” 即可停止全部服务
