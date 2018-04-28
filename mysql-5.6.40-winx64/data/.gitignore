@@ -1,0 +1,5 @@
+*.err
+*.pid
+ibdata1
+ib_logfile*
+!.gitignore
