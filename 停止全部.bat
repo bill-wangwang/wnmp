@@ -1,0 +1,9 @@
+echo Stopping nginx...
+taskkill /F /IM nginx.exe > nul
+echo Stopping PHP FastCGI...
+taskkill /F /IM php-cgi.exe > nul
+echo Stopping mysql...
+taskkill /F /IM mysqld.exe > nul
+echo Stop all success! 3 seconds later will be close!
+ping -n 6 127.0.0.1 > nul
+exit
