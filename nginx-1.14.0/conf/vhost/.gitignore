@@ -1,4 +1,5 @@
 *
+!_phpmyadmin.conf
 !testphp5.conf
 !testphp7.conf
 !.gitignore
