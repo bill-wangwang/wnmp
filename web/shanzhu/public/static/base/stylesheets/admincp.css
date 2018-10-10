@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*================================
+            通用样式
+==================================*/
+*{word-wrap:break-word;outline:0}
+body{background:white;}
+html{-webkit-text-size-adjust:none}
+body,button,input,select,td,textarea{color:#333;font-size:12px;font-family:"Microsoft Yahei","Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif}
+body,dd,dl,dt,fieldset,form,li,ol,ul{margin:0;padding:0}
+li,ol,ul{list-style-image:none;list-style-type:none}
+a{color:#3b639f;text-decoration:none;blr:expression(this.onFocus=this.blur())}
+a:hover{color:#CD0200;text-decoration:underline}
+a img{border:none}
+cite,em,th{font-style:normal;font-weight:400}
+table{border-collapse:collapse}
+th{text-align:left}
+button,input,select,textarea{outline:0}
+.tl{text-align:left}
+.tc{text-align:center}
+.tr{text-align:right}
+.nobg{background-color:transparent!important;background-image:none!important}
+.nopd{padding:0!important}
+.nobd{border-width:0!important;border-color:transparent!important;border-style:none!important;border-radius:0!important}
+.nobs,.nobs:hover{box-shadow:none!important}
+article,aside,dialog,figure,footer,header,menu,nav,section{display:block}
+.clear{clear:both}
+.muted{color:#999}
+.text-warning{color:#d8984c}
+.text-error{color:#d74641}
+.text-info{color:#3079ed}
+.text-success{color:#5cb147}
+h1,h2,h3,h4,h5,h6{margin:10px 0;padding:0;font-family:inherit;font-weight:700;line-height:20px;color:inherit;text-rendering:optimizelegibility}
+h1,h2,h3{line-height:40px}
+h1{font-size:38.5px}
+h2{font-size:31.5px}
+h3{font-size:24.5px}
+h4{font-size:17.5px}
+h5{font-size:14px}
+h6{font-size:11.9px}
+.container{width:1190px;margin:0 auto}
+
+/*================================
+            主框架布局
+==================================*/
+body,html{height:100%;overflow:hidden;display:block}
+.admincp-header{width:100%;height:50px;position:relative;z-index:2;background-color:white;border:1px #e7eaec solid}
+.admincp-container{height:100%;position:relative;z-index:1}
+.admincp-container .admincp-menu,.admincp-main{position:absolute;z-index:1;top:0;bottom:0}
+.admincp-container .admincp-menu{background-color:#324157;width:219px;left:0}
+.admincp-main{background-color:#fff;right:0;left:219px}
+
+/*================================
+            页面元素
+==================================*/
+.admincp-header .left{float:left}
+.admincp-header .left .btn{padding:6px 12px;margin:10px 5px 5px 10px;font-size:14px;background-color:#13ce66;border-color:#13ce66;color:#fff}
+.admincp-header .left .btn:hover{background-color:#42d885;border-color:#42d885}
+.admincp-header .right{line-height:49px;float:right;padding-right:15px;font-size:14px}
+.admincp-header .admin-user-info{display:inline-block;color:#999}
+.admincp-header .user-panel{display:inline-block}
+.admincp-header .user-panel a{display:inline-block;font-weight:700;color:#999;padding:0 10px}
+.admincp-header .user-panel a:hover{color:#000;background-color:#eee;text-decoration:none}
+.admincp-container .menu-top{height:90px;padding-top:10px;text-align:center}
+.admincp-container .menu-top .logo{width:80px;height:80px;border-radius:40px}
+.admincp-container .menu-list{padding-bottom:20px;background-color:#324157}
+.admincp-container .admincp-menu a:hover{text-decoration:none}
+.menu-box .parent,.menu-box .selfMenu{display:block;position:relative;height:46px;line-height:46px;padding-left:25px;font-size:14px;background-color:#2e384a;color:#a7b1c2;white-space:nowrap;position:relative}
+.menu-box .parent .fa,.menu-box .selfMenu .fa{position:absolute;right:15px;top:16px}
+.menu-box .menu-sub a:hover,.menu-box .parent:hover,.menu-box .selfMenu:hover{background-color:#121b25}
+.menu-box .icon-menu{display:inline-block;width:18px;height:18px;vertical-align:middle;margin-right:10px;background-repeat: no-repeat;background-position:top center}
+.menu-box-highlight .parent,.menu-box .parent:hover{color:white}
+.menu-box-highlight .parent .icon-menu,.menu-box .parent:hover .icon-menu{background-position:bottom center}
+.menu-box .menu-sub a{display:block;line-height:35px;font-size:12px;padding-left:58px;background-color:#1f2d3d;color:#a7b1c2;white-space:nowrap}
+.menu-box .menu-sub a:hover{color:white}
+.menu-box .menu-sub .current a,.no-child .active,.no-child .active:hover{background:#00a0e9 url(../images/main/menu_arrow.png) right center no-repeat;color:#fff}
+.no-child .active .icon-menu{background-position:bottom center}
+.menu-box .menu-sub a .fa{margin-right:8px}
+.menu-box .notifyNumber{line-height:12px;display:inline-block;font-size:13px;padding:3px 5px;border-radius:3px;position:absolute;top:14px;right:35px;background-color:#ff6a4d;color:#FFF}
+.menu-box .menu-sub li{position:relative}
+.menu-box .menu-sub li .notifyNumber{top:8px;right:15px}
+.fa-feature{width:12px;height:12px;background:url(../images/version/icon_feature.png) top center no-repeat;position:relative;top:1px}
+.admincp-header .user-panel a:hover .fa-feature{background-position:bottom center}
+.admincp-header .user-panel .feature{position:relative}
+.admincp-header .user-panel .feature span{width:8px;height:8px;background-color:#ff0000;border-radius:4px;position:absolute;top:15px;right:5px}
+
+/*================================
+            菜单图标
+==================================*/
+.icon-default{background-image:url(../images/menu/icon_default.png)}	/* 默认图标 */
+.icon-ticket{background-image:url(../images/menu/icon_ticket.png)}		/* 车辆管理 */
+.icon-tel{background-image:url(../images/menu/icon_tel.png)}			/* 电话预约 */
+.icon-line{background-image:url(../images/menu/icon_line.png)}			/* 线路规划 */
+.icon-schedule{background-image:url(../images/menu/icon_schedule.png)}	/* 放票/排班 */
+.icon-activity{background-image:url(../images/menu/icon_activity.png)}	/* 活动管理 */
+.icon-user{background-image:url(../images/menu/icon_user.png)}			/* 人员管理 */
+.icon-vehicle{background-image:url(../images/menu/icon_vehicle.png)}	/* 车辆管理 */
+.icon-config{background-image:url(../images/menu/icon_config.png)}		/* 配置管理 */
+.icon-report{background-image:url(../images/menu/icon_report.png)}		/* 报表管理 */

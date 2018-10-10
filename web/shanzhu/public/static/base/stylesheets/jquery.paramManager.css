@@ -1,0 +1,82 @@
+@charset "utf-8";
+.param-manager-table * {
+    font-family: arial, \5b8b\4f53, verdana, SimSun-ExtB,arial,sans-serif;
+}
+.param-manager-table {
+    border: #d5d5d5 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+.param-manager-table thead th {
+    background-color: #f7f7f7;
+    text-align: center;
+    color: #555;
+    font-weight: bold;
+    font-size: 12px;
+    height: 30px;
+    border-bottom: #d5d5d5 1px solid;
+}
+.param-manager-notdata td {
+    text-align: center;
+    height: 30px;
+    font-size: 14px;
+    background-color: #fff0d5;
+    color: #f1ac3c;
+}
+.param-manager-tr td {
+    height: 25px;
+    padding: 6px;
+    background-color: #fcfcfc;
+    border-top: 1px #eee solid;
+    font-size: 12px;
+    overflow:hidden;
+    white-space:nowrap;
+    _white-space:normal;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+}
+.param-manager-tr:hover td {
+    background-color: #fff;
+}
+.param-manager-select, .param-manager-input {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    border:2px transparent solid;
+    border-radius: 3px;
+}
+.param-manager-select:focus, .param-manager-input:focus {
+    outline:none;
+    border: 2px #a5c7fe solid;
+    background-color: white;
+    text-indent: 3px;
+}
+.param-manager-op-td {
+    text-align: left;
+}
+.param-manager-retract {
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px;
+}
+.text-center {
+    text-align: center;
+}
+.text-center input {
+    text-align: center;
+}
+.param-manager-delete, .param-manager-insert, .root-manager-insert {
+    text-decoration: none;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.param-manager-delete {
+    background-image: url(../images/icon_delete.png);
+}
+.param-manager-insert, .root-manager-insert {
+    background-image: url(../images/icon_add.png);
+}

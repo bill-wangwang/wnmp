@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>页面不存在_{:config('system.system_name')}_{:config('system.project_version')}</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="<?php echo config('static_base_url');?>/base/stylesheets/common.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo config('static_base_url');?>/base/stylesheets/index.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo config('static_base_url');?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="page-404">
+        <div class="icon"></div>
+        <div class="info">
+            <dl>
+                <dt>404</dt>
+                <dd>
+                    <div class="tips">啊哦，页面君累倒了，<br/>不好意思，没有这个页面~</div>
+                    <a href="/">回到首页</a>
+                    <div class="text text-error tips">{$message}</div>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+@charset "utf-8";
+.uploadFile-tips{padding-top:8px;font-size:12px;color:#606266}
+.uploadFile-list{display:inline-block;margin-top:8px}
+.uploadFile-list ul li{position:relative;font-size:12px;padding:2px 180px 4px 3px;border-radius:5px}
+.uploadFile-list ul li:hover{background-color:#f2f6f8}
+.uploadFile-list .icon-file{width:16px;height:16px;display:inline-block;vertical-align:middle;background-repeat:no-repeat;background-position:center}
+.uploadFile-list .file{display:inline-block;height:16px;line-height:16px;vertical-align:middle;margin-left:3px;max-width:550px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.uploadFile-list .size-tip{position:absolute;top:2px;right:60px;color:#ccc}
+.uploadFile-list .iconfont{position:absolute}
+.uploadFile-list .iconfont:hover{text-decoration:none}
+.uploadFile-list .icon-edit{font-size:16px;top:3px;right:32px;color:#20a0ff}
+.uploadFile-list .icon-edit:hover{color:#4db3ff}
+.uploadFile-list .icon-delete{font-size:22px;top:4px;right:5px;color:#ff4949}
+.uploadFile-list .icon-file-loading{background:url(icon_loading.gif) left center no-repeat;padding-left:20px;color:#ccc}
+.uploadFile-list .icon-delete:hover{color:#ff6d6d}
+.icon-file-apk {background-image: url(icon/apk.png)}
+.icon-file-audio {background-image: url(icon/audio.png)}
+.icon-file-chm {background-image: url(icon/chm.png)}
+.icon-file-css {background-image: url(icon/css.png)}
+.icon-file-dll {background-image: url(icon/dll.png)}
+.icon-file-doc {background-image: url(icon/doc.png)}
+.icon-file-exe {background-image: url(icon/exe.png)}
+.icon-file-html {background-image: url(icon/html.png)}
+.icon-file-image {background-image: url(icon/image.png)}
+.icon-file-js {background-image: url(icon/js.png)}
+.icon-file-mdb {background-image: url(icon/mdb.png)}
+.icon-file-pdf {background-image: url(icon/pdf.png)}
+.icon-file-php {background-image: url(icon/php.png)}
+.icon-file-ppt {background-image: url(icon/ppt.png)}
+.icon-file-psd {background-image: url(icon/psd.png)}
+.icon-file-txt {background-image: url(icon/txt.png)}
+.icon-file-unknow {background-image: url(icon/unknow.png)}
+.icon-file-video {background-image: url(icon/video.png)}
+.icon-file-xls {background-image: url(icon/xls.png)}
+.icon-file-xml {background-image: url(icon/xml.png)}
+.icon-file-zip {background-image: url(icon/zip.png)}
+.icon-file-swf {background-image: url(icon/swf.png)}
+.icon-file-fla {background-image: url(icon/fla.png)}
+.icon-file-flv {background-image: url(icon/flv.png)}
+.icon-file-png {background-image: url(icon/png.png)}
+.icon-file-bmp {background-image: url(icon/bmp.png)}
+.icon-file-obj {background-image: url(icon/obj.png)}
+.icon-file-ai {background-image: url(icon/ai.png)}
