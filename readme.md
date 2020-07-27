@@ -1,4 +1,4 @@
-# WNMP V1.0.2 说明文档
+# WNMP V1.0.3 说明文档
 > 切勿将此环境用于生产环境，对于用于生产环境出现的任何问题作者概不负责。   
 > 此套件的目的在于快速搭建一个windows上的nginx + php[5|7] + mysql 的开发环境。  
 > 对应的 nginx、mysql 和 php 以及RunHiddenConsole.exe 版权归原作者所有，这里只是进行简单的组装。   
@@ -7,16 +7,16 @@
 > power by zhangchongwang@163.com <wechat:zcwljl> at 2018-04-28 
 
 ## 使用说明
-- 下载 wnmp-v1.0.2.zip
+- 下载 wnmp-v1.0.3.zip
 ```
 	git clone git@github.com:bill-wangwang/wnmp.git 
 	#或者直接下载 https://codeload.github.com/bill-wangwang/wnmp/zip/master
 ```
-- 解压 wamp-v1.0.2.zip 到任意目录（注意路径不能出现中文和空格，推荐路径为:  d:\wnmp ）
+- 解压 wamp-v1.0.3.zip 到任意目录（注意路径不能出现中文和空格，推荐路径为:  d:\wnmp ）
 - 双击 “启动全部.bat” 即可启动全部服务
 - 双击 “停止全部.bat” 即可停止全部服务
 - 双击 “重启nginx.bat”即可重启nginx（一般用于修改或者新增虚拟站点配置时启用）
-- 双击 “phpMyAdmin_4.8.2”即可打开phpMyAdmin
+- 双击 “phpMyAdmin_4.8.3”即可打开phpMyAdmin
 ## 目录结构
 ```
 ├─logs  ------------------------------- nginx日志目录 （必须有可写权限）
@@ -31,7 +31,7 @@
 └─web   ------------------------------- 配置站点主目录
     ├─testphp5  ----------------------- 测试php5站点目录
     ├─testphp7  ----------------------- 测试php7站点目录
-    └─phpMyAdmin-4.8.2-all-languages  --phpMyAdmin站点目录
+    └─phpMyAdmin-4.8.5-all-languages  --phpMyAdmin站点目录
 
 ```
 
@@ -55,3 +55,5 @@
 	- 增加php5.X版本 php-5.6.36
 - V1.0.2
 	- 增加phpMyAdmin_4.8.2  
+- V1.0.3
+	- 升级phpMyAdmin_4.8.5
