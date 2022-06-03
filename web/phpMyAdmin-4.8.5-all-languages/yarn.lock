@@ -480,9 +480,9 @@ jquery-ui@1.13.0:
   dependencies:
     jquery ">=1.8.0 <4.0.0"
 
-jquery-validation@1.19.3:
-  version "1.19.3"
-  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.19.3.tgz#50b350eba8b02bcfd119ba15f199487b7eb64086"
+jquery-validation@1.19.4:
+  version "1.19.4"
+  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.19.4.tgz#a765781d954e5876fa437d5c75b7a9440bfa37a8"
 
 jquery.event.drag@2.2.2:
   version "2.2.2"
